@@ -6,3 +6,7 @@ rvm:
 language: php
 
 language: java
+jdk:
+  - oraclejdk8
+
+script: ant build
