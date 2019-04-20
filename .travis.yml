@@ -10,12 +10,12 @@ before_script:
 - sudo apt-get update
 - sudo apt-get install xvfb libfontconfig wkhtmltopdf
 - sudo apt-get update
-- sudo apt-get install -y texlive-base
+- sudo apt-get install -y texlive-full
 - sudo apt-get update
 
 script: 
 - wkhtmltopdf --version
 - pandoc --version
-- pdflatex --version
+- latex --version
 - ls
-- cd /legacy/odt1718/
+- cd legacy/odt1718/
