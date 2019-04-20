@@ -18,4 +18,4 @@ script:
 - pandoc --version
 - latex-base --version
 - ls
-- cd /study-guide/legacy/odt1718/
+- cd /legacy/odt1718/
