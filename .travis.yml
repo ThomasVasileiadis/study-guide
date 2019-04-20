@@ -4,8 +4,11 @@ language: php
 
 sudo: required
 
-script: sudo apt-get install pandoc
-python3 -m venv ./venv
-. ./venv/bin/activate
-pip install WeasyPrint
-weasyprint --help
+before_script:
+- sudo apt-get install pandoc
+- python3 -m venv ./venv
+- . ./venv/bin/activate
+- pip install WeasyPrint
+
+script: 
+- weasyprint --help
