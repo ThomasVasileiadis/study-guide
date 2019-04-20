@@ -2,12 +2,12 @@ language: bash
 
 language: php
 
-sudo: required
+language: python
 
 before_script:
 - sudo apt-get install pandoc
 - sudo apt-get install python3-pip
-- pip3 install virtualenv
+- sudo pip install virtualenv
 - sudo python3 -m venv ./venv
 - . ./venv/bin/activate
 - sudo pip install WeasyPrint
