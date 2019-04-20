@@ -21,4 +21,5 @@ script:
 - ls
 - cd legacy/odt1718/
 - ls
+- chmod +x md2html2pdf.sh
 - ./md2html2pdf.sh
