@@ -7,10 +7,9 @@ language: python
 before_script:
 - sudo apt-get install pandoc
 - sudo apt-get install python3-pip
-- sudo apt-get install python3-venv
-- sudo python3 -m venv ./venv
-- . ./venv/bin/activate
-- sudo pip install WeasyPrint
+- sudo apt-get update
+- sudo apt-get install xvfb libfontconfig wkhtmltopdf
 
 script: 
-- weasyprint --help
+- wkhtmltopdf --version
+- pandoc --version
