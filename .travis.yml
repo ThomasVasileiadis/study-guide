@@ -16,6 +16,6 @@ before_script:
 script: 
 - wkhtmltopdf --version
 - pandoc --version
-- latex-base --version
+- pdflatex --version
 - ls
 - cd /legacy/odt1718/
