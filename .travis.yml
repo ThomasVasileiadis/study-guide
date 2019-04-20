@@ -19,3 +19,5 @@ script:
 - latex --version
 - ls
 - cd legacy/odt1718/
+- ls
+- ./md2html2pdf.sh
