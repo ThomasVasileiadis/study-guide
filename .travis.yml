@@ -7,7 +7,7 @@ language: python
 before_script:
 - sudo apt-get install pandoc
 - sudo apt-get install python3-pip
-- sudo pip install virtualenv
+- sudo apt-get install python3-venv
 - sudo python3 -m venv ./venv
 - . ./venv/bin/activate
 - sudo pip install WeasyPrint
